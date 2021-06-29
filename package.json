@@ -5,7 +5,6 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "prebuild": "jest",
     "predeploy": "vue-cli-service build",
     "deploy": "gh-pages -d dist",
     "clean": "gh-pages-clean",
@@ -29,6 +28,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.0.0",
     "gh-pages": "^3.2.3",
+    "jest": "^27.0.6",
     "prettier": "^2.2.1",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0"
