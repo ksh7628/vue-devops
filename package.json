@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "prebuild": "jest",
     "predeploy": "vue-cli-service build",
     "deploy": "gh-pages -d dist",
     "clean": "gh-pages-clean",
